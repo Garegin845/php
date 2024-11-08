@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Заказать ежедневную еду</title>
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="icon"
+href="./img/logo.png">
+</head>
+
+<body>
+
+
+<div class="header">
+<div class="footer">
+<img src="./img/logo.png"
+ alt="" class="logo">
+
+ <ul class="page">
+  <li><a href="login.html">Войти</a></li>
+ <li> <a href="re.html">Регистрация</a></li>
+ <li><button type="submit" class="btn" onclick="openMap()" >Карта</button></li>
+ <div class="map" id="map">
+<h2>Укажите адрес, чтобы мы могли предложить вам <b>САМУЮ БЫСТРУЮ ДОСТАВКУ </b></h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18578.317285899244!2d43.83082120621528!3d40.7794564367874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4041fbf52c9e0279%3A0x98282e1362957c91!2sTumo%20Gyumri!5e1!3m2!1sen!2sam!4v1706462715248!5m2!1sen!2sam" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<button class="ok" type="button" onclick="closeMap()" >Ok</button>
+ </div>
+ <li><a href="home.html">Главная страница</a></li>
+  
+ <li><a  href="armh.html"><img src="./img/am.png" class="am" alt=""> AM</a></li>
+ <li><a  href="engh.html"><img src="./img/en.png" alt="" class="ru"> EN</a></li>
+ <li><a  href="rush.html"><img src="./img/ru.png" alt="" class="ru"> RU</a></li>
+</ul>
+<script>
+  let map = document.getElementById("map")
+  function openMap(){
+    map.classList.add("open-map")
+  }
+  function closeMap(){
+    map.classList.remove("open-map")
+  }
+  
+</script>
+
+</div>
+
+
+
+</div>
+</div>
+
+<img id="img" src="./img/pastar.jpg"  >
+<div class="content">
+<div class="food1">
+<img class="img1" src="./img/img54.jpg">
+<div class="description1">
+ <span class="span3"><b>33 Пиццаз Туманян</b></span>
+ <span class="span4">Минимум 2000֏ </span>
+ <span class="buy1"><a href="./buy.html">Купить</a></span>
+ <img class="img2"
+ src="./img/star.webp"
+ alt="">
+ <span class="span5"><b>4.7</b></span>
+ <span class="span18">10:00-23:59</span>
+</div>
+
+<div class="food2">
+ <img class="img3" src="./img/img55.jpg">
+ <div class="description2">
+ <span class="span6"><b>Бум Фуд</b></span>
+ <span class="span7">Минимум 2000֏ </span>
+ <span class="buy1"><a href="./buy.html">Купить</a></span>
+ <img class="img4"
+src="./img/star.webp"
+alt="">
+ <span class="span8"><b> 4.7</b></span>
+ <span class="span17">10:30-02:30</span>
+ </div>
+
+ <div class="food3">
+ <img class="img5"
+src="./img/img56.jpg">
+ <div class="description3">
+<span class="span9"><b>Даймонд Ресторан</b></span>
+<span class="span10">Минимум 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Купить</a></span>
+<img class="img6"
+ src="./img/star.webp"
+ alt="">
+<span class="span11"><b> 4.4</b></span>
+<span class="span16">10:00-23:59</span>
+ </div>
+
+
+ <div class="food4">
+<img class="img7"
+ src="./img/img57.jpg">
+<div class="description4">
+ <span class="span12"><b>Карас Абовян 1/1</b></span>
+ <span class="span13">Минимум 2000֏ </span>
+ <span class="buy1"><a href="./buy.html">Купить</a></span>
+ <img class="img8"
+src="./img/star.webp"
+alt="">
+ <span class="span14"><b> 4.6</b></span>
+ <span class="span15">10:00-23:59</span>
+</div>
+
+
+
+<div class="food5">
+ <img class="img9"
+src="./img/img58.jpg">
+ <div class="description5">
+<span class="span19"><b>Туманян шаурма Бюзанд</b></span>
+<span class="span20">Минимум 2000֏
+  <span class="buy1"><a href="./buy.html">Купить</a></span>
+</span>
+<img class="img10"
+src="./img/star.webp"
+alt="">
+<span class="span21"><b>
+  4.4</b></span>
+<span class="span22">10:00-23:59</span>
+ </div>
+
+
+
+ <div class="food6">
+<img class="img11"
+src="./img/img59.jpg">
+<div class="description6">
+<span class="span23"><b>Мр. Гирос Амирян</b></span>
+<span class="span24">Минимум 3000֏ </span>
+<span class="buy1"><a href="./buy.html">Купить</a></span>
+<img class="img12"
+src="./img/star.webp"
+alt="">
+<span class="span25"><b>4.5</b></span>
+<span class="span26">12:00-03:45</span>
+</div>
+
+<div class="food7">
+<img class="img13"
+src="./img/img61.jpg">
+<div class="description7">
+<span class="span27"><b>Скуэар Уан энд Синнабон</b></span>
+<span class="span28">Минимум 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Купить</a></span>
+<img class="img14"
+src="./img/star.webp"
+alt="">
+<span class="span29"><b>  4.7</b></span>
+<span class="span30">09:00-23:00  </span>
+</div>
+
+
+<div class="food8">
+<img class="img15"
+src="./img/img60.jpg">
+<div class="description8">
+<span class="span31"><b>Кофишоп Компни Ин Эриванци</b></span>
+<span class="span32">Минимум 2000֏
+</span>
+<span class="buy1"><a href="./buy.html">Купить</a></span>
+<img class="img16"
+src="./img/star.webp"
+alt="">
+<span class="span33"><b>4.7</b></span>
+<span class="span34">09:30-02:00</span>
+</div>
+
+
+<div class="food9">
+<img class="img17"
+src="./img/img62.jpg">
+<div class="description9">
+<span class="span35"><b>Блек Ангус Абовян  </b></span>
+<span class="span36">Минимум 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Купить</a></span>
+<img class="img18"
+src="./img/star.webp"
+alt="">
+<span class="span37"><b>  4.7</b></span>
+<span class="span38">09:00-04:40</span>
+</div>
+
+
+<div class="food10">
+<img class="img19"
+src="./img/img63.jpg">
+<div class="description10">
+<span class="span39"><b>Таук</b></span>
+<span class="span40">Минимум 2000֏</span>
+<span class="buy1"><a href="./buy.html">Купить</a></span>
+<img class="img20"
+  src="./img/star.webp"
+  alt="">
+<span class="span41"><b> 4.7</b></span>
+<span class="span42">11:00-23:30</span>
+</div>
+
+
+<div class="food11">
+<img class="img21"
+  src="./img/img64.jpg">
+<div class="description11">
+  <span class="span43"><b>Библос</b></span>
+  <span class="span44">Минимум 2000֏ </span>
+  <span class="buy1"><a href="./buy.html">Купить</a></span>
+  <img class="img22"
+src="./img/star.webp"
+alt="">
+  <span class="span45"><b>   4.7</b></span>
+  <span class="span46">09:00-04:40</span>
+</div>
+
+<div class="food12">
+  <img class="img23"
+src="./img/img65.jpg">
+  <div class="description12">
+<span class="span47"><b>Луи Шарден</b></span>
+<span class="span48">Минимум 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Купить</a></span>
+<img class="img24"
+src="./img/star.webp"
+alt="">
+<span class="span49"><b>  4.7
+</b></span>
+<span class="span50">08:30-21:00</span>
+  </div>
+
+  <div class="food13">
+<img class="img25"
+src="./img/img66.jpg">
+<div class="description13">
+<span class="span51"><b>Белла Италия</b></span>
+<span class="span52">Минимум 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Купить</a></span>
+<img class="img26"
+src="./img/star.webp"
+alt="">
+<span class="span53"><b> 4.5</b></span>
+<span class="span54">11:30-22:30</span>
+</div>
+
+
+<div class="food14">
+<img class="img27"
+src="./img/img67.jpg">
+<div class="description14">
+<span class="span55"><b>Пицца Таун</b></span>
+<span class="span56">Минимум 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Купить</a></span>
+<img class="img28"
+src="./img/star.webp"
+alt="">
+<span class="span57"><b>  4.4</b></span>
+<span class="span58">11:00-23:00</span>
+</div>
+
+
+
+
+
+<div class="food15">
+<img class="img29"
+src="./img/img68.jpg">
+<div class="description15">
+<span class="span59"><b>Импрессо</b></span>
+<span class="span60">Минимум 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Купить</a></span>
+<img class="img30"
+src="./img/star.webp"
+alt="">
+<span class="span61"><b>  4.8</b></span>
+<span class="span62">12:00-22:00</span>
+</div>
+
+
+
+<div class="food16">
+  <img class="img31"
+src="./img/img69.jpg">
+ <div class="description16">
+<span class="span63"><b>Сегафредо</b></span>
+<span class="span64">Минимум 3000֏
+  </span>
+  <span class="buy1"><a href="./buy.html">Купить</a></span>
+ <img class="img32"
+src="./img/star.webp"
+  alt="">
+ <span class="span65"><b>  4.8</b></span>
+<span class="span66">11:00-23:59</span>
+</div>
+<div class="imgf">
+
+
+  <div class="food17">
+    <img class="img33"
+ src="./img/img70.jpg">
+   <div class="description17">
+ <span class="span67"><b>ИнТемпо Пицца и многое другое</b></span>
+ <span class="span68">Минимум 2000֏
+    </span>
+    <span class="buy1"><a href="./buy.html">Купить</a></span>
+   <img class="img34"
+  src="./img/star.webp"
+    alt="">
+   <span class="span69"><b>   4.7</b></span>
+  <span class="span70">09:00-23:10</span>
+  </div>
+
+ 
+ 
+  <div class="food18">
+    <img class="img35"
+ src="./img/img71.jpg">
+   <div class="description18">
+ <span class="span71"><b>Соррисо</b></span>
+ <span class="span72">Минимум 2000֏
+    </span>
+    <span class="buy1"><a href="./buy.html">Купить</a></span>
+   <img class="img36"
+  src="./img/star.webp"
+    alt="">
+   <span class="span73"><b>  4.8</b></span>
+  <span class="span74">10:00-23:30</span>
+  </div>
+
+ 
+ 
+  <div class="food19">
+    <img class="img37"
+ src="./img/img72.jpg">
+   <div class="description19">
+ <span class="span75"><b>Эпикур</b></span>
+ <span class="span76">Минимум 2000֏
+    </span>
+    <span class="buy1"><a href="./buy.html">Купить</a></span>
+   <img class="img38"
+  src="./img/star.webp"
+    alt="">
+   <span class="span77"><b>   4.4</b></span>
+  <span class="span78">09:30-23:59</span>
+  </div>
+ 
+ 
+ 
+   
+
+
+
+</div>
+<div class="menu">
+  <h2>фильтры</h2>
+  <div class="food">
+  <span class="span1">
+  
+  
+  
+  </span>
+  <span class="span2"><a class="free"
+    href="food1.html">Бесплат. Доставка</a>
+  </span>
+  
+    <span class="s1"><a class="pizza"
+      href="pizza.html">Пицца</a></span>
+  
+      <span class="s2"><a class="xorovac"
+        href="xorovac.html">Шашлык и кебаб</a></span>
+  
+        <span class="s3"><a class="burger"
+          href="burger.html">Бургер и Сэндвич</a></span>
+  
+          <span class="s4"><a class="shaurma"
+            href="shaurma.html">Шаурма</a></span>
+          
+        
+      
+      
+    
+       
+</div>
+
+
+
+</body>
+
+</html>

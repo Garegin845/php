@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Պատվիրիր ամենօրյա սնունդը</title>
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="icon"
+href="./img/logo.png">
+</head>
+
+<body>
+<div class="header">
+<div class="footer">
+<img src="./img/logo.png"
+ alt="" class="logo">
+
+<ul class="page">
+  <li><a href="login.html">Մուտք</a></li>
+ <li> <a href="re.html">Գրանցվել</a></li>
+ <li><button type="submit" class="btn" onclick="openMap()" >Քարտեզ</button></li>
+ <div class="map" id="map">
+<h2>Նշեք Ձեր հասցեն՝ <b>ԱՄԵՆԱԱՐԱԳ ԱՌԱՔՈՒՄ</b> առաջարկելու համար</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18578.317285899244!2d43.83082120621528!3d40.7794564367874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4041fbf52c9e0279%3A0x98282e1362957c91!2sTumo%20Gyumri!5e1!3m2!1sen!2sam!4v1706462715248!5m2!1sen!2sam" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<button class="ok" type="button" onclick="closeMap()" >Ok</button>
+ </div>
+ <li><a href="home.html">Հիմնական էջ</a></li>
+  
+ <li><a  href="armh.html"><img src="./img/am.png" class="am" alt=""> AM</a></li>
+ <li><a  href="engh.html"><img src="./img/en.png" alt="" class="ru"> EN</a></li>
+ <li><a  href="rush.html"><img src="./img/ru.png" alt="" class="ru"> RU</a></li>
+</ul>
+<script>
+  let map = document.getElementById("map")
+  function openMap(){
+    map.classList.add("open-map")
+  }
+  function closeMap(){
+    map.classList.remove("open-map")
+  }
+</script>
+
+</div>
+</div>
+</div>
+<img id="img" src="./img/pastar.jpg"  >
+<div class="content">
+<div class="food1">
+<img class="img1" src="./img/img1.jpg">
+<div class="description1">
+ <span class="span3"><b>Մուռակամի</b></span>
+ <span class="span4">Նվազագույնը 2000֏ </span>
+ <span class="buy1"><a href="./buy.html">Գնել</a></span>
+
+ <img class="img2"
+ src="./img/star.webp"
+ alt="">
+ <span class="span5"><b>4.7</b></span>
+ <span class="span18">10:00-02:00</span>
+</div>
+
+<div class="food2">
+ <img class="img3" src="./img/img2.jpg">
+ <div class="description2">
+ <span class="span6"><b>Կես Մետր Պիցցա</b></span>
+ <span class="span7">Նվազագույնը 2000֏ </span>
+ <span class="buy1"><a href="./buy.html">Գնել</a></span>
+
+ <img class="img4"
+src="./img/star.webp"
+alt="">
+ <span class="span8"><b>5.0</b></span>
+ <span class="span17">10:00-23:00</span>
+ </div>
+
+ <div class="food3">
+ <img class="img5"
+src="./img/img3.jpg">
+ <div class="description3">
+<span class="span9"><b>12 Կտոր Պիցցա</b></span>
+<span class="span10">Նվազագույնը 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Գնել</a></span>
+
+<img class="img6"
+ src="./img/star.webp"
+ alt="">
+<span class="span11"><b>4.7</b></span>
+<span class="span16">24 Ժամ</span>
+ </div>
+
+
+ <div class="food4">
+<img class="img7"
+ src="./img/img4.jpg">
+<div class="description4">
+ <span class="span12"><b> Կովկաս Պանդոկ</b></span>
+ <span class="span13">Նվազագույնը 2000֏ </span>
+ <span class="buy1"><a href="./buy.html">Գնել</a></span>
+ <img class="img8"
+src="./img/star.webp"
+alt="">
+ <span class="span14"><b>4.7</b></span>
+ <span class="span15">10:00-23:59</span> 
+</div>
+
+
+
+<div class="food5">
+ <img class="img9"
+src="./img/img5.jpg">
+ <div class="description5">
+<span class="span19"><b>Պեկին</b></span>
+<span class="span20">Նվազագույնը 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Գնել</a></span>
+<img class="img10"
+src="./img/star.webp"
+alt="">
+<span class="span21"><b>4.5</b></span>
+<span class="span22">10:30-23:30</span>
+ </div>
+
+
+
+ <div class="food6">
+<img class="img11"
+src="./img/img6.jpg">
+<div class="description6">
+<span class="span23"><b>Բելլա Իտալիա</b></span>
+<span class="span24">Նվազագույնը 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Գնել</a></span>
+<img class="img12"
+src="./img/star.webp"
+alt="">
+<span class="span25"><b>4.7</b></span>
+<span class="span26">11:10-22:30</span>
+</div>
+
+<div class="food7">
+<img class="img13"
+src="./img/img7.jpg">
+<div class="description7">
+<span class="span27"><b>Լիբանանյան շաուրմա Թումանյան</b></span>
+<span class="span28">Նվազագույնը 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Գնել</a></span>
+<img class="img14"
+src="./img/star.webp"
+alt="">
+<span class="span29"><b> 4.6</b></span>
+<span class="span30">10:15-04:00</span>
+</div>
+
+
+<div class="food8">
+<img class="img15"
+src="./img/img8.jpg">
+<div class="description8">
+<span class="span31"><b>Մր. Ֆրանկ</b></span>
+<span class="span32">Նվազագույնը 2000֏
+</span>
+<span class="buy1"><a href="./buy.html">Գնել</a></span>
+<img class="img16"
+src="./img/star.webp"
+alt="">
+<span class="span33"><b>4.7</b></span>
+<span class="span34">11:00-01:30</span>
+</div>
+
+
+<div class="food9">
+<img class="img17"
+src="./img/img9.jpg">
+<div class="description9">
+<span class="span35"><b>ՊաՊա Պիցցա</b></span>
+<span class="span36">Նվազագույնը 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Գնել</a></span>
+<img class="img18"
+src="./img/star.webp"
+alt="">
+<span class="span37"><b> 4.6</b></span>
+<span class="span38">10:00-02:00</span>
+</div>
+
+
+<div class="food10">
+<img class="img19"
+src="./img/img10.jpg">
+<div class="description10">
+<span class="span39"><b>ԱփԹաուն</b></span>
+<span class="span40">Նվազագույնը 2000֏</span>
+<span class="buy1"><a href="./buy.html">Գնել</a></span>
+<img class="img20"
+  src="./img/star.webp"
+  alt="">
+<span class="span41"><b> 4.6</b></span>
+<span class="span42">11:00-02:00</span>
+</div>
+
+
+<div class="food11">
+<img class="img21"
+  src="./img/img11.jpg">
+<div class="description11">
+  <span class="span43"><b>Բիբլոս</b></span>
+  <span class="span44">Նվազագույնը 2000֏ </span>
+  <span class="buy1"><a href="./buy.html">Գնել</a></span>
+  <img class="img22"
+src="./img/star.webp"
+alt="">
+  <span class="span45"><b> 4.6</b></span>
+  <span class="span46">11:30-22:45</span>
+</div>
+
+<div class="food12">
+  <img class="img23"
+src="./img/img12.jpg">
+  <div class="description12">
+<span class="span47"><b>Քեյ Էֆ Սի Հյուսիսային պող
+1</b></span>
+<span class="span48">Նվազագույնը 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Գնել</a></span>
+<img class="img24"
+src="./img/star.webp"
+alt="">
+<span class="span49"><b> 4.6</b></span>
+<span class="span50">09:00-23:59</span>
+  </div>
+
+  <div class="food13">
+<img class="img25"
+src="./img/img13.jpg">
+<div class="description13">
+<span class="span51"><b>Պիցցա Դի Ռոմա</b></span>
+<span class="span52">Նվազագույնը 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Գնել</a></span>
+<img class="img26"
+src="./img/star.webp"
+alt="">
+<span class="span53"><b> 4.7</b></span>
+<span class="span54">11:30-23:30</span>
+</div>
+
+
+<div class="food14">
+<img class="img27"
+src="./img/img14.jpg">
+<div class="description14">
+<span class="span55"><b>Կարաս Աբովյան 1/1</b></span>
+<span class="span56">Նվազագույնը 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Գնել</a></span>
+<img class="img28"
+src="./img/star.webp"
+alt="">
+<span class="span57"><b> 4.6</b></span>
+<span class="span58">10:00-23:59</span>
+</div>
+
+
+
+
+
+<div class="food15">
+<img class="img29"
+src="./img/img15.jpg">
+<div class="description15">
+<span class="span59"><b>Թումանյան շաուրմա Բյուզանդ</b></span>
+<span class="span60">Նվազագույնը 2000֏ </span>
+<span class="buy1"><a href="./buy.html">Գնել</a></span>
+<img class="img30"
+src="./img/star.webp"
+alt="">
+<span class="span61"><b> 4.4</b></span>
+<span class="span62">10:00-23:59</span>
+</div>
+
+
+
+<div class="food16">
+   <img class="img31"
+src="./img/img16.jpg">
+  <div class="description16">
+<span class="span63"><b>Մր․ Գիրոս Ամիրյան</b></span>
+<span class="span64">Նվազագույնը 3000֏
+   </span>
+   <span class="buy1"><a href="./buy.html">Գնել</a></span>
+  <img class="img32"
+ src="./img/star.webp"
+   alt="">
+  <span class="span65"><b> 4.5</b></span>
+ <span class="span66">10:00-03:45</span>
+ </div>
+<div class="imgf">
+
+
+
+
+
+
+</div>
+<div class="menu">
+<h2>ֆիլտրեր</h2>
+<div class="food">
+<span class="span1">
+
+
+
+</span>
+<span class="span2"><a class="free"
+  href="food1.html">Անվճար Առաքում</a>
+</span>
+
+  <span class="s1"><a class="pizza"
+    href="pizza.html">Պիցցա</a></span>
+
+    <span class="s2"><a class="xorovac"
+      href="xorovac.html">Խորոված և քյաբաբ</a></span>
+
+      <span class="s3"><a class="burger"
+        href="burger.html">Բուրգեր և Սենդվիչ</a></span>
+
+        <span class="s4"><a class="shaurma"
+          href="shaurma.html">Շաուրմա</a></span>
+        
+      
+    
+  
+
+</div>
+
+
+
+</body>
+
+</html>
